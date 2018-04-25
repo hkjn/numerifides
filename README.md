@@ -102,7 +102,7 @@ address funding a “numerifide” transaction with the below Script:
 <blocks> OP_CHECKSEQUENCEVERIFY OP_DROP <C> OP_CHECKSIG
 ```
 
-Where <blocks> is between 144 (1 day) and 52560 (1 year) and <C> is a hash of a contract constructed like so:
+Where `<blocks>` is between 144 (1 day) and 52560 (1 year) and `<C>` is a hash of a contract constructed like so:
 
 1.  Generate a secret private key p = random() and the public key P = p * G.
 2.  Encode the Numerifides command (see below)
